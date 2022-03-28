@@ -1,7 +1,10 @@
 .cont{
     display: flex;
-    width:1669px;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1209px;
+    margin-left: 120px;
+    
+    
 }
 .logo{
     display: flex;
@@ -27,23 +30,27 @@
 }
 .h1{
     width: 602px;
-    font-size: 78px;
+    font-size: 66px;
     color:#534d4d ;
     margin-top: 288px;
     font-family: 'Lato', sans-serif;
 }
+
 .container2{
     width: 600px;
     height: 527px;
     margin-top: 262px;
+    
 }
 .img12{
     width: 600px;
 }
 .fullcontainer{
     display: flex;
-    width: 1669px;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 1209px;
+    margin-left: 120px;
+  
 }
 .p1{
     width:588px ;
@@ -51,7 +58,7 @@
     margin-top: 49px;
 }
 .relative{
-    width: 264px;
+    width: 255px;
     height: 77px;
     margin-top: 162px;
     background-color:#3d37f1 ;
