@@ -1,9 +1,20 @@
 .cont{
     display: flex;
     justify-content: space-between;
-    width: 1209px;
-    margin-left: 120px;
-    
+    max-width: 1239px;
+    width: 100%;  
+    margin: 0 auto;
+}
+.bar{
+    color: #564fd6;
+    font-size: 25px;
+    width: 25px;
+    margin-top: 80px;
+    display: none;
+    margin-left: 30px;
+}
+.nav-bar{
+    display: flex;
     
 }
 .logo{
@@ -29,31 +40,40 @@
     font-weight: bold ;
 }
 .h1{
-    width: 602px;
+    max-width: 602px;
+    width: 100%;
     font-size: 66px;
     color:#534d4d ;
     margin-top: 288px;
     font-family: 'Lato', sans-serif;
 }
+.container{
+    max-width: 602px;
+    width: 100%;
+}
 
 .container2{
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     height: 527px;
     margin-top: 262px;
     
 }
 .img12{
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 .fullcontainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 1209px;
-    margin-left: 120px;
-  
+    max-width: 1209px;
+    width: 100%;
+    margin: 0 auto; 
 }
 .p1{
-    width:588px ;
+    max-width:588px ;
+    width: 100%;
     font-size: 22px;
     margin-top: 49px;
 }
@@ -92,33 +112,33 @@
 }
 .p3{
     font-size: 18px;
-    width: 641px;
+    max-width: 641px;
+    width: 100%;
     margin-top: 26px;
     text-align: center;
 }
 .block1{
-    width: 641px;
+    max-width: 641px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 77px;
 }
 .sect2div1{
-    width: 371px;
+    max-width: 371px;
+    width: 100%;
     height: 452px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 0.2s linear;
+    
 }
 .images{
     width: 100px;
 }
-.sect2div1:hover{
-    background-color: cyan;
-    transform: scale(1.2);
-}
 .sect2div1:nth-child(1){
-    background-color: #dfa871; 
+    background-color: #dfa871;
+
 }
 .sect2div1:nth-child(2){
     background-color:#2293b7 ;
@@ -141,18 +161,21 @@
 }
 
 .threeblocks1{
-    width: 1169px;
+    max-width: 1169px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 74px;
+    
 }
 
 .block1h1{
     color: #ffffff;
     font-size: 22px;
     margin-top: 57px;
+    
    
 }
 .block1p1{
@@ -161,6 +184,8 @@
     font-size: 16px;
     text-align: center;
     margin-top: 15px;
+    
+   
 }
 .border{
     margin-top: 28px;
@@ -191,3 +216,7 @@
 
 
 
+
+
+
+   
