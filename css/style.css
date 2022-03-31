@@ -7,24 +7,24 @@
 }
 .bar{
     color: #564fd6;
-    font-size: 25px;
-    width: 25px;
+    font-size: 20px;
+    width: 15px;
     margin-top: 80px;
     display: none;
     margin-left: 30px;
 }
 .nav-bar{
     display: flex;
-    
+    justify-content: space-between;
 }
 .logo{
     display: flex;
     margin-top: 67px;
-    transition: transform;
 }
-.logo:hover{
-    transform: scale(1,2);
+.logoimg{
+    width: 150px;
 }
+
 .nav-ul{
     display: flex;
 }
@@ -124,14 +124,12 @@
     padding-top: 77px;
 }
 .sect2div1{
-    max-width: 371px;
-    width: 100%;
+    width: 371px;
     height: 452px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 .images{
     width: 100px;
